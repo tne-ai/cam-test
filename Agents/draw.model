@@ -1,0 +1,11 @@
+title: drawing
+model:
+  engine_name: openai-gpt
+  model_name: dall-e-3
+  api_key: OPENAI_API_KEY
+temperature: 0
+max_tokens: 500
+database: ''
+stream: true
+prompt: |
+  Based on the prompt, create a drawing in a hand drawn style.
