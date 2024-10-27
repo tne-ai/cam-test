@@ -1,0 +1,46 @@
+nodes:
+  - id: pQpeUEit7QacpEhibt2Dx
+    type: llm
+    position:
+      x: 600
+      'y': 263.0625
+    data:
+      id: pQpeUEit7QacpEhibt2Dx
+      title: New Model
+      input: ''
+      slashgptManifest: draw.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState:
+        backend: git
+        repo: cam-test
+    width: 260
+    height: 466
+    selected: false
+    dragging: false
+  - id: 5eGr8s_rd75bbyzyOt0aQ
+    type: out
+    position:
+      x: 579.7459569811884
+      'y': 848.8225405217901
+    data:
+      id: 5eGr8s_rd75bbyzyOt0aQ
+      title: Save File
+      outputName: drawing
+    width: 260
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 579.7459569811884
+      'y': 848.8225405217901
+    dragging: false
+edges:
+  - source: pQpeUEit7QacpEhibt2Dx
+    sourceHandle: b
+    target: 5eGr8s_rd75bbyzyOt0aQ
+    targetHandle: t
+    id: Ymkf--
+description: null
